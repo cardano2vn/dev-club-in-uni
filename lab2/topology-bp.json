@@ -1,0 +1,28 @@
+{
+    "bootstrapPeers": null,
+    "localRoots": [
+      {
+        "accessPoints": [
+              {
+                 "address":"<my-pool-relay-ip-address-1>",
+                 "port":"<my-pool-relay-port>"
+              },
+              {
+                 "address":"<my-pool-relay-ip-address-2>",
+                 "port":"<my-pool-relay-port>"
+              }
+        ],
+        "advertise": false,
+        "trustable": true,
+        "valency": 2
+      }
+    ],
+    "publicRoots": [
+      {
+        "accessPoints": [],
+        "advertise": false
+      }
+    ],
+    "useLedgerAfterSlot": -1
+  }
+  
